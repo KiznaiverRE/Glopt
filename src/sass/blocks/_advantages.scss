@@ -1,0 +1,27 @@
+.advantages {
+    padding: 58px 0 51px 0;
+    background-color: #f3f3f3;
+    &-item {
+        display: flex;
+        margin-top: 31px;
+        align-items: flex-start;
+        &__desc {
+            width: 450px;
+        }
+        &__icon {
+            margin-right: 17px;
+            padding-top: 3px;
+        }
+        &__subtitle {
+            font-size: 16px;
+            font-weight: 700;
+            color: $primary-color;
+        }
+        &__text {
+            font-size: 14px;
+            font-weight: 300;
+            color: #3a3a3a;
+            margin-top: 5px;
+        }
+    }
+}

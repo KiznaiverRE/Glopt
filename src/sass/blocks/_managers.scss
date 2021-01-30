@@ -1,0 +1,22 @@
+.managers {
+    padding: 58px 0 78px 0;
+    text-align: center;
+    background: url(../img/managers-bg.jpg) 50% / cover no-repeat;
+    &__icon {
+        padding: 21px 27px 30px 27px;
+        border: 1px solid #ffffff;
+        margin: 0 auto;
+    }
+    &__subtitle {
+        margin-top: 20px;
+        font-size: 26px;
+        font-weight: 700;
+        color: #ffffff;
+    }
+    &__desc {
+        margin-top: 20px;
+        font-size: 19px;
+        font-weight: 300;
+        color: #ffffff;
+    }
+}

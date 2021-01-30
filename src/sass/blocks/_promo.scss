@@ -1,0 +1,131 @@
+.promo {
+    background: url(../img/main-bg.jpg) 50% / cover no-repeat;
+    padding: 23px 0 81px 0;
+    position: relative;
+    &__wrapper {
+        margin-top: 9px;
+        text-align: center;
+        .row {
+            margin-top: 27px;
+        }
+    }
+    &__title {
+        font-size: 24px;
+        line-height: 1.2;
+        font-weight: 300;
+        color: #ffffff;
+    }
+    &__subtitle {
+        font-size: 72px;
+        line-height: 1.2;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-top: 26px;
+        color: $primary-color;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+    &__desc {
+        font-size: 42px;
+        line-height: 1.2;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: #ffffff;
+        margin-top: 9px;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+    &__divider {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 38px;
+    }
+    &__line {
+        width: 390px;
+        height: 1px;
+        background-color: #fff;
+        left: 0;
+    }
+    &__round {
+        width: 9px;
+        height: 9px;
+        margin: 0 12px;
+        background-color: #fff;
+        border-radius: 100%;
+    }
+    &-item {
+        &__icon {
+            height: 63px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        &__desc {
+            font-size: 16px;
+            font-weight: 300;
+            margin-top: 13px;
+            color: #fff;
+        }
+    }
+    &__button {
+        font-size: 15px;
+        line-height: 15px;
+        font-weight: 700;
+        padding: 23px 45px;
+        border-radius: 34px;
+        margin-top: 39px;
+    }
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &-menu {
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+        &__item {
+            border-right: 1px dotted #fff;
+            &:last-child {
+                border: none;
+            }
+            a {
+                padding: 3.5px 13px;
+                color: #fff;
+                font-size: 15px;
+                font-weight: 400;
+                line-height: 16px;
+                &:hover {
+                    color: $primary-color;
+                }
+            }
+        }
+    }
+    &-contacts {
+        display: flex;
+        align-items: center;
+        &__call {
+            margin-right: 19px;
+            color: #fff;
+            text-align: right;
+        }
+        &__questions {
+            font-size: 14px;
+            line-height: 24px;
+            font-weight: 300;
+            margin-bottom: 5px;
+        }
+        &__phone {
+            font-size: 19px;
+            line-height: 24px;
+            font-weight: 700;
+        }
+        &__button {
+            padding: 18px 23px;
+            font-size: 12px;
+            line-height: 12px;
+            font-weight: 400;
+            border-radius: 24px;
+        }
+    }
+}
